@@ -1,0 +1,58 @@
+# ── Python ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environments ─────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Environment & Secrets ────────────────────────────────────────────────
+.env
+*.env.local
+*.env.production
+crowd-dashboard/.env
+
+# ── Database Files ───────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Large Media / Test Files ─────────────────────────────────────────────
+*.mp4
+*.avi
+*.mov
+crowd-dashboard/stream.mp4
+crowd-dashboard/temp.mp4
+crowd-dashboard/temp_stream.mp4
+crowd-dashboard/test_crowd_heat.jpg
+crowd-dashboard/test_out.jpg
+
+# ── YOLO Model Weights (tracked via Git LFS) ─────────────────────────────
+# Large .pt files are handled by Git LFS (see .gitattributes)
+# Comment out the lines below if you have LFS configured:
+*.pt
+
+# ── Snapshots (runtime-generated) ────────────────────────────────────────
+snapshots/
+crowd-dashboard/snapshots/
+
+# ── Backup Files ─────────────────────────────────────────────────────────
+*_backup.py
+*.bak
+
+# ── OS / Editor ──────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Misc ─────────────────────────────────────────────────────────────────
+crowd-dashboard/__pycache__/

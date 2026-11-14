@@ -1,0 +1,13 @@
+opencv-python
+numpy
+pandas
+streamlit
+matplotlib
+ultralytics
+torch
+scipy
+filterpy
+python-dotenv
+twilio
+streamlit-js-eval
+requests
